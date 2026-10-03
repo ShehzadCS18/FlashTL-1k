@@ -1,0 +1,51 @@
+# FlashNet configuration for FlashTL-1K
+
+dataset:
+  num_classes: 2
+  num_frames: 16
+  image_size: 224
+  class_names:
+    - Flashing Red
+    - Flashing Yellow
+
+model:
+  name: FlashNet
+  backbone: mobilenet_v3_small
+  pretrained: true
+
+  spatial:
+    feature_dim: 576
+    projection_dim: 256
+
+  dhor:
+    num_oscillators: 12
+    temporal_dim: 256
+    delta_t: 0.25
+
+  fusion:
+    spatial_dim: 256
+    temporal_dim: 256
+    fused_dim: 512
+
+loss:
+  name: DSML
+  red_weight: 1.5
+  base_margin: 0.3
+  flicker_scale: 0.5
+
+training:
+  epochs: 50
+  batch_size: 4
+  optimizer: AdamW
+  learning_rate: 0.0001
+  weight_decay: 0.0001
+  scheduler: OneCycleLR
+  gradient_clip: 1.0
+  mixed_precision: true
+  weighted_sampler: true
+
+evaluation:
+  num_folds: 5
+  stratified: true
+
+seed: 42
