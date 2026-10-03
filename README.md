@@ -26,9 +26,3 @@ To address this limitation, this work introduces:
   emphasize safety-critical flashing-red errors while adapting the decision
   margin according to flicker quality.
 
-## Repository Status
-
-🚧 Code and dataset release is currently being prepared.
-
-More documentation, pretrained models, dataset access, and reproducibility
-instructions will be added shortly.
