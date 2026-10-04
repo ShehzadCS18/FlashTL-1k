@@ -31,7 +31,7 @@ To address this limitation, this work introduces:
 The **FlashTL-1K** dataset is publicly available for research purposes.
 
 <p align="center">
-  <a href="[https://drive.google.com/drive/folders/1vtgWp19TW2UQS5GZA9BSh9qOlI5GnK3g?usp=sharing](https://drive.google.com/drive/folders/1vtgWp19TW2UQS5GZA9BSh9qOlI5GnK3g?usp=sharing)">
+  <a href="https://drive.google.com/drive/folders/1vtgWp19TW2UQS5GZA9BSh9qOlI5GnK3g?usp=sharing">
     <b>📂 Download FlashTL-1K from Google Drive</b>
   </a>
 </p>
@@ -52,4 +52,4 @@ rainy scenarios.
 | Rain | 81 | 147 | 228 |
 | **Total** | **305** | **995** | **1,300** |
 
-> **Dataset:** [Download FlashTL-1K](https://drive.google.com/drive/folders/1vtgWp19TW2UQS5GZA9BSh9qOlI5GnK3g?usp=sharing)
+> **Dataset:** [Download FlashTL-1K][(https://drive.google.com/drive/folders/1vtgWp19TW2UQS5GZA9BSh9qOlI5GnK3g?usp=sharing)]
